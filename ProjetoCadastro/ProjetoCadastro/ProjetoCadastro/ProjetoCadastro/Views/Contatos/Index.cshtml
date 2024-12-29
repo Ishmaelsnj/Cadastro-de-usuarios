@@ -1,41 +1,42 @@
 ﻿@model IEnumerable<ProjetoCadastro.Models.ContatoModel>
 
 <h1>Lista de Contatos</h1>
-<table class="table">
+<table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>ID</th>
             <th>Nome</th>
             <th>CPF</th>
-            @*<th>Telefone</th>
-            <th>Tipo</th>*@
             <th>Ações</th>
         </tr>
     </thead>
+
     <tbody>
         @foreach (var contato in Model)
         {
-<tr>
-    <td>@contato.Id</td>
-    <td>@contato.Nome</td>
-    <td>@contato.CPF</td>
-    @*<td>@contato.Telefone</td>
-    <td>@contato.TelefoneTipo</td>*@
-    <td>
-        <!-- Botão de Editar -->
-        <a href="@Url.Action("Edit", "Contatos", new { id = contato.Id })" class="btn btn-warning">Editar</a>
+            <tr>
+                <td>@contato.Id</td>
+                <td>@contato.Nome</td>
+                <td>@contato.CPF</td>
+                <td>
 
-        <!-- Botão de Excluir com confirmação -->
-        <form asp-action="DeleteConfirmed" asp-route-id="@contato.Id" method="post" style="display:inline;">
-            <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir este contato?')">Excluir</button>
-        </form>
+                    <a href="@Url.Action("Edit", "Contatos", new { id = contato.Id })" class="btn btn-warning">Editar</a>
 
+                    <form asp-action="Delete" method="get" style="display:inline;">
+                        <input type="hidden" name="id" value="@contato.Id" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir este contato?')">Excluir</button>
+                    </form>
 
-    </td>
-</tr>}
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
 
 <div class="text-left">
-    <a href="@Url.Action("Create", "Contatos")" class="btn btn-primary">Cadastrar Contato</a>
+    <a href="@Url.Action("Create", "Contatos")" class="btn btn-primary spacing-buttons mb-3">Cadastrar Contato</a>
+</div>
+
+<div class="text-left">
+    <a asp-controller="Contatos" asp-action="ConsultaContato" class="btn btn-secondary spacing-buttons">Consultar Contato</a>
 </div>

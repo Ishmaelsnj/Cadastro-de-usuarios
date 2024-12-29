@@ -1,6 +1,9 @@
-﻿@model ProjetoCadastro.Models.ContatoModel
+﻿@using ProjetoCadastro.Enums
+@model ProjetoCadastro.Models.ContatoModel
 
-@{ ViewData["Title"] = "Editar Contato"; }
+@{
+    ViewData["Title"] = "Editar Contato";
+}
 
 <div class="text-center">
     <h1 class="display-4">Editar Contato</h1>
@@ -18,73 +21,126 @@
     <div class="form-group">
         <label for="CPF">CPF</label>
         <input type="text" asp-for="CPF" class="form-control" id="CPF" placeholder="Digite o CPF" data-mask="000.000.000-00" />
-        <span class="text-danger field-validation-valid" data-valmsg-for="CPF" data-valmsg-replace="true"></span>
+        <span asp-validation-for="@Model.CPF" class="text-danger"></span>
     </div>
 
     <h3>Telefones</h3>
     <div id="telefones-list">
         @for (int i = 0; i < Model.Telefones.Count; i++)
         {
-    <div class="telefone-item">
-        <div class="form-group">
-            <label for="Telefones[@i].Numero">Número de Telefone</label>
-            <input type="text" id="Telefones[@i].Numero" name="Telefones[@i].Numero" class="form-control" placeholder="Digite o telefone" value="@Model.Telefones[@i].Numero" />
-            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[@i].Numero" data-valmsg-replace="true"></span>
-        </div>
+            <div class="telefone-item">
+                <div class="form-group">
+                    <label asp-for="@Model.Telefones[i].TipoTelefone">Tipo de Telefone</label>
+                    <select asp-for="Telefones[i].TipoTelefone" class="form-control">
+                        @foreach (var tipo in Enum.GetValues(typeof(TipoTelefoneEnum)))
+                        {
+                            if (Model.Telefones[i].TipoTelefone == (TipoTelefoneEnum)tipo)
+                            {
+                                <option value="@tipo" selected>@tipo</option>
+                            }
+                            else
+                            {
+                                <option value="@tipo">@tipo</option>
+                            }
+                        }
+                    </select>
 
-        <div class="form-group">
-            <label for="Telefones[@i].Tipo">Tipo de Telefone</label>
-            <select asp-for="Telefones[@i].Tipo" class="form-control" data-val="true" data-val-required="O tipo de telefone é obrigatório.">
-                <option value="">Selecione o tipo</option>
-                <option value="Fixo">Fixo</option>
-                <option value="Comercial">Comercial</option>
-                <option value="Pessoal">Pessoal</option>
-                <option value="WhatsApp">WhatsApp</option>
-            </select>
-            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[@i].Tipo" data-valmsg-replace="true"></span>
-        </div>
 
-        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
-    </div>}
+                    <span asp-validation-for="@Model.Telefones[i].TipoTelefone" class="text-danger"></span>
+                </div>
 
+                <div class="form-group">
+                    <label asp-for="@Model.Telefones[i].Numero">Número de Telefone</label>
+                    <input type="text" asp-for="@Model.Telefones[i].Numero" class="form-control telefone-mask" id="Telefones[@i].Numero" />
+                    <span asp-validation-for="@Model.Telefones[i].Numero" class="text-danger"></span>
+                </div>
+
+                @if (i != 0)
+                {
+                    <div class="form-group">
+                        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
+                    </div>
+                }
+            </div>
+        }
     </div>
-    <button type="button" id="add-telefone" class="btn btn-primary">Adicionar Telefone</button>
+
+    <div class="form-group">
+        <button type="button" id="add-telefone" class="btn btn-primary">Adicionar Telefone</button>
+    </div>
+
 
     <button type="submit" class="btn btn-success btn-block">Salvar</button>
+    <br>
     <a class="btn btn-secondary btn-block" asp-controller="Contatos" asp-action="Index" role="button">Voltar</a>
+    <br>
 </form>
 
 @section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('#CPF').mask('000.000.000-00');
+            function aplicarMascaraTelefone($campo, tipo) {
+                if (tipo === "Fixo") {
+                    $campo.mask('(00) 0000-0000');
+                } else {
+                    $campo.mask('(00) 00000-0000');
+                }
+            }
+
+            $('.telefone-item input[type="text"]').each(function () {
+                const $telefoneInput = $(this);
+                const $tipoTelefone = $telefoneInput
+                    .closest('.telefone-item')
+                    .find('select[name$=".TipoTelefone"]');
+
+                aplicarMascaraTelefone($telefoneInput, $tipoTelefone.val());
+
+                $tipoTelefone.on('change', function () {
+                    aplicarMascaraTelefone($telefoneInput, $(this).val());
+                });
+            });
 
             let telefoneIndex = @Model.Telefones.Count;
 
             $('#add-telefone').click(function () {
                 const telefoneItem = `
-                    <div class="telefone-item">
-                        <div class="form-group">
-                            <label for="Telefones[${telefoneIndex}].Numero">Número de Telefone</label>
-                            <input name="Telefones[${telefoneIndex}].Numero" class="form-control" placeholder="Digite o telefone" data-val="true" data-val-required="O número do telefone é obrigatório." />
-                            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[${telefoneIndex}].Numero" data-valmsg-replace="true"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="Telefones[${telefoneIndex}].Tipo">Tipo de Telefone</label>
-                            <select name="Telefones[${telefoneIndex}].Tipo" class="form-control">
-                                <option value="">Selecione o tipo</option>
-                                <option value="Fixo">Fixo</option>
-                                <option value="Comercial">Comercial</option>
-                                <option value="Pessoal">Pessoal</option>
-                                <option value="WhatsApp">WhatsApp</option>
-                            </select>
-                            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[${telefoneIndex}].Tipo" data-valmsg-replace="true"></span>
-                        </div>
-                        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
-                    </div>
-                `;
+                                <div class="telefone-item">
+                                    <div class="form-group">
+                                        <label for="Telefones[${telefoneIndex}].TipoTelefone">Tipo de Telefone</label>
+                                        <select name="Telefones[${telefoneIndex}].TipoTelefone" class="form-control">
+                                            <option value="">Selecione o tipo</option>
+                                            <option value="Fixo">Fixo</option>
+                                            <option value="Comercial">Comercial</option>
+                                            <option value="Pessoal">Pessoal</option>
+                                            <option value="WhatsApp">WhatsApp</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Telefones[${telefoneIndex}].Numero">Número de Telefone</label>
+                                        <input type="text" id="Telefones[${telefoneIndex}].Numero" name="Telefones[${telefoneIndex}].Numero" class="form-control telefone-mask" placeholder="Digite o telefone" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
+                                    </div>
+                                </div>`;
+
                 $('#telefones-list').append(telefoneItem);
+
+                const $novoTelefone = $(`#Telefones\\[${telefoneIndex}\\]\\.Numero`);
+                const $novoTipoTelefone = $novoTelefone
+                    .closest('.telefone-item')
+                    .find('select[name$=".TipoTelefone"]');
+
+                aplicarMascaraTelefone($novoTelefone, $novoTipoTelefone.val());
+
+                $novoTipoTelefone.on('change', function () {
+                    aplicarMascaraTelefone($novoTelefone, $(this).val());
+                });
+
                 telefoneIndex++;
             });
 
@@ -93,4 +149,9 @@
             });
         });
     </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+

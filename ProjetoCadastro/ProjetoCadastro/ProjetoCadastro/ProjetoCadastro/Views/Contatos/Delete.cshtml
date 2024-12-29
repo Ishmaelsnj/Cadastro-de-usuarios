@@ -1,6 +1,8 @@
 ﻿@model ProjetoCadastro.Models.ContatoModel
 
-@{ ViewData["Title"] = "Excluir Contato"; }
+@{
+    ViewData["Title"] = "Excluir Contato";
+}
 
 <div class="text-center">
     <h1 class="display-4">Excluir Contato</h1>
@@ -8,9 +10,8 @@
 
 <h3>Você tem certeza que deseja excluir o contato @Model.Nome?</h3>
 
-<form asp-action="DeleteConfirmed" method="post">
-    <!-- Passa o Id do contato como um campo oculto -->
-    <input type="hidden" asp-for="Id" />
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
     <button type="submit" class="btn btn-danger">Sim, excluir</button>
     <a asp-controller="Contatos" asp-action="Index" class="btn btn-secondary">Cancelar</a>
 </form>

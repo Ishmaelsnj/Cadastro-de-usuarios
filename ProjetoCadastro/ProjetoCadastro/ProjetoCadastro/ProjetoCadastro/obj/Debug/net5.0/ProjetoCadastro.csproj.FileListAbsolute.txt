@@ -224,7 +224,99 @@ C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCada
 C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.Views.pdb
 C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.csproj.CopyComplete
 C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.genruntimeconfig.cache
-C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ref\ProjetoCadastro.dll
-C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\ProjetoCadastro.StaticWebAssets.xml
 C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.sourcelink.json
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\ProjetoCadastro.StaticWebAssets.Pack.cache
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.ProjetoCadastro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.build.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\refint\ProjetoCadastro.dll
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\ConsultaContato.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\DocumentValidator.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\appsettings.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.exe
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.deps.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.runtimeconfig.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.runtimeconfig.dev.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.Views.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\ProjetoCadastro.Views.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\DocumentValidator.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.csproj.AssemblyReference.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.AssemblyInfoInputs.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.AssemblyInfo.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.csproj.CoreCompileInputs.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.RazorAssemblyInfo.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.RazorAssemblyInfo.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.sourcelink.json
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.TagHelpers.input.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.TagHelpers.output.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.RazorCoreGenerate.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\ConsultaContato.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\Create.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\Delete.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\Edit.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Contatos\Index.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.RazorTargetAssemblyInfo.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.RazorTargetAssemblyInfo.cs
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.Views.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\scopedcss\bundle\ProjetoCadastro.styles.css
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\ProjetoCadastro.StaticWebAssets.Manifest.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\ProjetoCadastro.StaticWebAssets.Pack.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.ProjetoCadastro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.build.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.ProjetoCadastro.props
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.csproj.CopyComplete
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\refint\ProjetoCadastro.dll
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.pdb
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ProjetoCadastro.genruntimeconfig.cache
+C:\Users\ishma\Desktop\entregarCopia - Copia\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\ProjetoCadastro\obj\Debug\net5.0\ref\ProjetoCadastro.dll

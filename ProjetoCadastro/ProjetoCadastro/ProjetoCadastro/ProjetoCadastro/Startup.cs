@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore; // Importa o Entity Framework Core
-using ProjetoCadastro.Data; // Namespace do seu DbContext
+using Microsoft.EntityFrameworkCore;
+using ProjetoCadastro.Data;
 using AutoMapper;
 
 namespace ProjetoCadastro
@@ -18,20 +18,16 @@ namespace ProjetoCadastro
 
         public IConfiguration Configuration { get; }
 
-        // Este método adiciona os serviços necessários ao container
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(Startup)); // Adiciona o AutoMapper e escaneia os perfis
+            services.AddAutoMapper(typeof(Startup));
 
-            // Configurando o DbContext com a string de conexão
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))); // Atualize para a string correta
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Adiciona suporte para controladores e views
             services.AddControllersWithViews();
         }
 
-        // Este método configura o pipeline de requisições HTTP
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
