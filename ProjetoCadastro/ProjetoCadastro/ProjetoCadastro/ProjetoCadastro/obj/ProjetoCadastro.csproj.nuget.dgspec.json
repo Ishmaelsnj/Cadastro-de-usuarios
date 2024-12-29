@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj": {}
+    "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj": {
+    "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
+        "projectUniqueName": "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
         "projectName": "ProjetoCadastro",
-        "projectPath": "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
+        "projectPath": "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
         "packagesPath": "C:\\Users\\ishma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\obj\\",
+        "outputPath": "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"

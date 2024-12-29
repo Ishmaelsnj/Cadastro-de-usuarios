@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore; // Importa o Entity Framework Core
 using ProjetoCadastro.Data; // Namespace do seu DbContext
+using AutoMapper;
 
 namespace ProjetoCadastro
 {
@@ -20,6 +21,8 @@ namespace ProjetoCadastro
         // Este método adiciona os serviços necessários ao container
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup)); // Adiciona o AutoMapper e escaneia os perfis
+
             // Configurando o DbContext com a string de conexão
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))); // Atualize para a string correta

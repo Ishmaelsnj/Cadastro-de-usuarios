@@ -8,5 +8,18 @@ namespace ProjetoCadastro.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<ContatoModel> Contatos { get; set; }
+        public DbSet<TelefoneModel> Telefones { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Configuração da relação entre Contato e Telefone
+            modelBuilder.Entity<TelefoneModel>()
+                .HasOne(t => t.Contato)
+                .WithMany(c => c.Telefones)
+                .HasForeignKey(t => t.ContatoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

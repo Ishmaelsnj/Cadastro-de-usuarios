@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XPhmtCZg+7Sle5dMfzx4pJWj1oHM5JjsnCDIkGHWX6p87JiPMxTSX51L1PFxmU8vKKZ6g7MV28AJ8pADAb6Nyw==",
+  "dgSpecHash": "9zogslRmBFENVqodCzXd05KLeMdYMBRPWWXSc3SRLeUd4ckttX5atX+0M+l82hF3NUzx+OImsXKth961DceNCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ishma\\Desktop\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
+  "projectFilePath": "C:\\Users\\ishma\\Desktop\\entregarCopia\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro\\ProjetoCadastro.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ishma\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\ishma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -65,7 +67,7 @@
     "C:\\Users\\ishma\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\ishma\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\ishma\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\ishma\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

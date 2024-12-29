@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoCadastro.Models
@@ -14,11 +15,7 @@ namespace ProjetoCadastro.Models
         [StringLength(14, ErrorMessage = "O CPF deve ter 14 caracteres.")]
         public string CPF { get; set; }
 
-        [Required(ErrorMessage = "O telefone é obrigatório.")]
-        [StringLength(15, ErrorMessage = "O telefone não pode exceder 15 caracteres.")]
-        public string Telefone { get; set; }
-
-        [Required(ErrorMessage = "O tipo de telefone é obrigatório.")]
-        public string TelefoneTipo { get; set; }
+        // Lista de telefones associados ao contato
+        public List<TelefoneModel> Telefones { get; set; } = new List<TelefoneModel>();
     }
 }

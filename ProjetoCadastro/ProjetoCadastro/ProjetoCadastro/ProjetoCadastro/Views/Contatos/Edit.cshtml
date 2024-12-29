@@ -11,51 +11,86 @@
 
     <div class="form-group">
         <label for="Nome">Nome</label>
-        <input type="text" asp-for="Nome" class="form-control" id="Nome" placeholder="Digite o nome do contato">
-        @Html.ValidationMessageFor(x => x.Nome, null, new { @class = "text-danger" })
+        <input type="text" asp-for="Nome" class="form-control" id="Nome" placeholder="Digite o nome do contato" />
+        <span class="text-danger field-validation-valid" data-valmsg-for="Nome" data-valmsg-replace="true"></span>
     </div>
 
     <div class="form-group">
         <label for="CPF">CPF</label>
-        <input type="text" asp-for="CPF" class="form-control" id="CPF" placeholder="Digite o CPF" data-mask="000.000.000-00">
-        @Html.ValidationMessageFor(x => x.CPF, null, new { @class = "text-danger" })
+        <input type="text" asp-for="CPF" class="form-control" id="CPF" placeholder="Digite o CPF" data-mask="000.000.000-00" />
+        <span class="text-danger field-validation-valid" data-valmsg-for="CPF" data-valmsg-replace="true"></span>
     </div>
 
-    <div class="form-group">
-        <label for="Telefone">Telefone</label>
-        <input type="text" asp-for="Telefone" class="form-control" id="Telefone" placeholder="Digite o telefone" data-mask="(00) 00000-0000">
-        @Html.ValidationMessageFor(x => x.Telefone, null, new { @class = "text-danger" })
-    </div>
+    <h3>Telefones</h3>
+    <div id="telefones-list">
+        @for (int i = 0; i < Model.Telefones.Count; i++)
+        {
+    <div class="telefone-item">
+        <div class="form-group">
+            <label for="Telefones[@i].Numero">Número de Telefone</label>
+            <input type="text" id="Telefones[@i].Numero" name="Telefones[@i].Numero" class="form-control" placeholder="Digite o telefone" value="@Model.Telefones[@i].Numero" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[@i].Numero" data-valmsg-replace="true"></span>
+        </div>
 
-    <div class="form-group">
-        <label>Tipo de Telefone</label>
-        <div class="form-check">
-            <input type="radio" asp-for="TelefoneTipo" value="Fixo" class="form-check-input" id="telefoneFixo">
-            <label class="form-check-label" for="telefoneFixo">Fixo</label>
+        <div class="form-group">
+            <label for="Telefones[@i].Tipo">Tipo de Telefone</label>
+            <select asp-for="Telefones[@i].Tipo" class="form-control" data-val="true" data-val-required="O tipo de telefone é obrigatório.">
+                <option value="">Selecione o tipo</option>
+                <option value="Fixo">Fixo</option>
+                <option value="Comercial">Comercial</option>
+                <option value="Pessoal">Pessoal</option>
+                <option value="WhatsApp">WhatsApp</option>
+            </select>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[@i].Tipo" data-valmsg-replace="true"></span>
         </div>
-        <div class="form-check">
-            <input type="radio" asp-for="TelefoneTipo" value="Comercial" class="form-check-input" id="telefoneComercial">
-            <label class="form-check-label" for="telefoneComercial">Comercial</label>
-        </div>
-        <div class="form-check">
-            <input type="radio" asp-for="TelefoneTipo" value="Pessoal" class="form-check-input" id="telefonePessoal">
-            <label class="form-check-label" for="telefonePessoal">Pessoal</label>
-        </div>
-        <div class="form-check">
-            <input type="radio" asp-for="TelefoneTipo" value="WhatsApp" class="form-check-input" id="telefoneWhatsApp">
-            <label class="form-check-label" for="telefoneWhatsApp">WhatsApp</label>
-        </div>
-        @Html.ValidationMessageFor(x => x.TelefoneTipo, null, new { @class = "text-danger" })
-    </div>
 
-    <button type="submit" class="btn btn-primary btn-block">Salvar Alterações</button>
+        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
+    </div>}
+
+    </div>
+    <button type="button" id="add-telefone" class="btn btn-primary">Adicionar Telefone</button>
+
+    <button type="submit" class="btn btn-success btn-block">Salvar</button>
     <a class="btn btn-secondary btn-block" asp-controller="Contatos" asp-action="Index" role="button">Voltar</a>
 </form>
 
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-    <script>$(document).ready(function () {
+    <script>
+        $(document).ready(function () {
             $('#CPF').mask('000.000.000-00');
-            $('#Telefone').mask('(00) 00000-0000');
-        });</script>
+
+            let telefoneIndex = @Model.Telefones.Count;
+
+            $('#add-telefone').click(function () {
+                const telefoneItem = `
+                    <div class="telefone-item">
+                        <div class="form-group">
+                            <label for="Telefones[${telefoneIndex}].Numero">Número de Telefone</label>
+                            <input name="Telefones[${telefoneIndex}].Numero" class="form-control" placeholder="Digite o telefone" data-val="true" data-val-required="O número do telefone é obrigatório." />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[${telefoneIndex}].Numero" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Telefones[${telefoneIndex}].Tipo">Tipo de Telefone</label>
+                            <select name="Telefones[${telefoneIndex}].Tipo" class="form-control">
+                                <option value="">Selecione o tipo</option>
+                                <option value="Fixo">Fixo</option>
+                                <option value="Comercial">Comercial</option>
+                                <option value="Pessoal">Pessoal</option>
+                                <option value="WhatsApp">WhatsApp</option>
+                            </select>
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Telefones[${telefoneIndex}].Tipo" data-valmsg-replace="true"></span>
+                        </div>
+                        <button type="button" class="btn btn-danger remove-telefone">Remover</button>
+                    </div>
+                `;
+                $('#telefones-list').append(telefoneItem);
+                telefoneIndex++;
+            });
+
+            $(document).on('click', '.remove-telefone', function () {
+                $(this).closest('.telefone-item').remove();
+            });
+        });
+    </script>
 }

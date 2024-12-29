@@ -1,6 +1,6 @@
 # Projeto Cadastro de Contatos
 
-Este é um projeto simples de cadastro de contatos, utilizando ASP.NET Core MVC e Entity Framework.
+Este é um projeto de cadastro de contatos, utilizando ASP.NET Core MVC e Entity Framework.
 
 ## Requisitos
 
